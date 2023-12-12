@@ -11,6 +11,7 @@ from main_parse import parser
 import time 
 import concurrent.futures
 
+
 #note: db name is rss.db
 #for reference on structure: 
 # title link description pubDate
