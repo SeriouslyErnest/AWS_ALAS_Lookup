@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Amazon Linux AMI Security Bulletins</title>
+    <description>Amazon Linux AMI Security Bulletins</description>
+    <link>https://alas.aws.amazon.com</link>
+    <language>en-us</language>
+    <ttl>35</ttl>
+    
+    <item>
+        <title>ALAS-2023-1855 (medium): libtiff</title>
+        <description>
+            CVE-2016-5321
+        </description>
+        <pubDate>Wed, 27 Sep 2023 22:15:00 GMT</pubDate>
+        <lastBuildDate>Fri, 06 Oct 2023 00:51:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2023-1855.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2023-1855.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2023-1854 (medium): ghostscript</title>
+        <description>
+            CVE-2020-16305
+        </description>
+        <pubDate>Wed, 27 Sep 2023 22:15:00 GMT</pubDate>
+        <lastBuildDate>Fri, 06 Oct 2023 00:51:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2023-1854.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2023-1854.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2023-1853 (medium): ghostscript</title>
+        <description>
+            CVE-2020-21710
+        </description>
+        <pubDate>Wed, 27 Sep 2023 22:15:00 GMT</pubDate>
+        <lastBuildDate>Fri, 06 Oct 2023 00:51:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2023-1853.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2023-1853.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2023-1852 (medium): poppler</title>
+        <description>
+            CVE-2020-23804
+        </description>
+        <pubDate>Wed, 27 Sep 2023 22:15:00 GMT</pubDate>
+        <lastBuildDate>Fri, 06 Oct 2023 00:51:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2023-1852.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2023-1852.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-6 (medium): openswan</title>
+        <description>
+            CVE-2011-3380
+        </description>
+        <pubDate>Mon, 10 Oct 2011 23:54:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-6.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-6.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-5 (medium): perl-FCGI</title>
+        <description>
+            CVE-2011-2766
+        </description>
+        <pubDate>Mon, 10 Oct 2011 23:48:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-5.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-5.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-4 (medium): openssl</title>
+        <description>
+            CVE-2011-3207
+        </description>
+        <pubDate>Mon, 10 Oct 2011 23:40:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-4.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-4.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-3 (medium): ca-certificates</title>
+        <description>
+            
+        </description>
+        <pubDate>Mon, 10 Oct 2011 22:31:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-3.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-3.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-2 (important): cyrus-imapd</title>
+        <description>
+            CVE-2011-3208
+        </description>
+        <pubDate>Mon, 10 Oct 2011 22:29:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-2.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-2.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-1 (medium): httpd</title>
+        <description>
+            CVE-2011-3192
+        </description>
+        <pubDate>Tue, 27 Sep 2011 22:46:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-1.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-1.html</link>
+    </item>
+    
+</channel>
+</rss>

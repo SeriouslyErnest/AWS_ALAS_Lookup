@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Amazon Linux AMI Security Bulletins</title>
+    <description>Amazon Linux AMI Security Bulletins</description>
+    <link>https://alas.aws.amazon.com</link>
+    <language>en-us</language>
+    <ttl>35</ttl>
+    
+
+    <item>
+        <title>ALASLIVEPATCH-2023-155 (important): kernel-livepatch-5.10.186-179.751</title>
+        <description>
+            CVE-2023-3777, CVE-2023-4004, CVE-2023-4147, CVE-2023-4206, CVE-2023-4207, CVE-2023-4208, CVE-2023-4622, CVE-2023-4623, CVE-2023-4921
+        </description>
+        <pubDate>Tue, 31 Oct 2023 00:16:00 GMT</pubDate>
+        <lastBuildDate>Wed, 01 Nov 2023 00:48:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/AL2/ALASLIVEPATCH-2023-155.html</guid>
+        <link>https://alas.aws.amazon.com/AL2/ALASLIVEPATCH-2023-155.html</link>
+    </item>
+
+    <item>
+        <title>ALASECS-2023-030 (medium): containerd</title>
+        <description>
+            CVE-2020-15257
+        </description>
+        <pubDate>Thu, 09 Nov 2023 20:27:00 GMT</pubDate>
+        <lastBuildDate>Wed, 15 Nov 2023 23:19:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/AL2/ALASECS-2023-030.html</guid>
+        <link>https://alas.aws.amazon.com/AL2/ALASECS-2023-030.html</link>
+    </item>
+
+    <item>
+        <title>ALASDOCKER-2023-028 (important): runc</title>
+        <description>
+            CVE-2023-29406
+        </description>
+        <pubDate>Thu, 17 Aug 2023 17:04:00 GMT</pubDate>
+        <lastBuildDate>Wed, 23 Aug 2023 00:12:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/AL2/ALASDOCKER-2023-028.html</guid>
+        <link>https://alas.aws.amazon.com/AL2/ALASDOCKER-2023-028.html</link>
+    </item>
+
+    <item>
+        <title>ALASPYTHON3.8-2023-007 (medium): python38</title>
+        <description>
+            CVE-2020-10735
+        </description>
+        <pubDate>Mon, 21 Aug 2023 21:00:00 GMT</pubDate>
+        <lastBuildDate>Mon, 25 Sep 2023 22:04:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/AL2/ALASPYTHON3.8-2023-007.html</guid>
+        <link>https://alas.aws.amazon.com/AL2/ALASPYTHON3.8-2023-007.html</link>
+    </item>
+
+
+    <item>
+        <title>ALASFIREFOX-2023-013 (important): firefox</title>
+        <description>
+            CVE-2021-4129, CVE-2022-2200, CVE-2022-3266, CVE-2022-34468, CVE-2022-34470, CVE-2022-34472, CVE-2022-34479, CVE-2022-34481, CVE-2022-34484, CVE-2022-46871, CVE-2022-46872, CVE-2022-46874, CVE-2022-46877, CVE-2022-46878, CVE-2022-46880, CVE-2022-46881, CVE-2022-46882, CVE-2023-23598, CVE-2023-23599, CVE-2023-23601, CVE-2023-23602, CVE-2023-23603, CVE-2023-23605
+        </description>
+        <pubDate>Mon, 21 Aug 2023 21:01:00 GMT</pubDate>
+        <lastBuildDate>Mon, 25 Sep 2023 22:12:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/AL2/ALASFIREFOX-2023-013.html</guid>
+        <link>https://alas.aws.amazon.com/AL2/ALASFIREFOX-2023-013.html</link>
+    </item>
+
+
+
+    <item>
+        <title>ALASTOMCAT8.5-2023-013 (important): tomcat</title>
+        <description>
+            CVE-2019-12418, CVE-2019-17563, CVE-2020-13935, CVE-2021-43980, CVE-2022-45143, CVE-2023-24998, CVE-2023-28708
+        </description>
+        <pubDate>Mon, 21 Aug 2023 20:58:00 GMT</pubDate>
+        <lastBuildDate>Mon, 25 Sep 2023 21:58:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/AL2/ALASTOMCAT8.5-2023-013.html</guid>
+        <link>https://alas.aws.amazon.com/AL2/ALASTOMCAT8.5-2023-013.html</link>
+    </item>
+    
+
+    <item>
+        <title>ALAS-2011-8 (important): freetype</title>
+        <description>
+            CVE-2011-3256
+        </description>
+        <pubDate>Mon, 31 Oct 2011 18:18:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:26:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-8.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-8.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-7 (important): php</title>
+        <description>
+            CVE-2011-1148, CVE-2011-1938, CVE-2011-2202, CVE-2011-2483, CVE-2011-3182, CVE-2011-3379
+        </description>
+        <pubDate>Tue, 11 Oct 2011 00:07:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-7.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-7.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-6 (medium): openswan</title>
+        <description>
+            CVE-2011-3380
+        </description>
+        <pubDate>Mon, 10 Oct 2011 23:54:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-6.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-6.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-5 (medium): perl-FCGI</title>
+        <description>
+            CVE-2011-2766
+        </description>
+        <pubDate>Mon, 10 Oct 2011 23:48:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-5.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-5.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-4 (medium): openssl</title>
+        <description>
+            CVE-2011-3207
+        </description>
+        <pubDate>Mon, 10 Oct 2011 23:40:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-4.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-4.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-3 (medium): ca-certificates</title>
+        <description>
+            
+        </description>
+        <pubDate>Mon, 10 Oct 2011 22:31:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-3.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-3.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-2 (important): cyrus-imapd</title>
+        <description>
+            CVE-2011-3208
+        </description>
+        <pubDate>Mon, 10 Oct 2011 22:29:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2014 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-2.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-2.html</link>
+    </item>
+    
+    <item>
+        <title>ALAS-2011-1 (medium): httpd</title>
+        <description>
+            CVE-2011-3192
+        </description>
+        <pubDate>Tue, 27 Sep 2011 22:46:00 GMT</pubDate>
+        <lastBuildDate>Sun, 14 Sep 2022 14:25:00 GMT</lastBuildDate>
+        <guid>https://alas.aws.amazon.com/ALAS-2011-1.html</guid>
+        <link>https://alas.aws.amazon.com/ALAS-2011-1.html</link>
+    </item>
+    
+</channel>
+</rss>
