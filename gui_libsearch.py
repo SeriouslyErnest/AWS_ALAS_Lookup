@@ -24,8 +24,11 @@ def save_to_csv(tree):
         csvwriter.writerows(data)
 
 def search_library():
-    query = entry.get().replace(",", " ").split() 
-    query = [term.strip().lower() for term in query] 
+    # query = entry.get().replace(",", " ").split() 
+    # query = [term.strip().lower() for term in query] 
+    # updated version below to handle colons in lib name such as php-5:4.16-46.amzn2.0.3.aarch64
+    query = entry.get().replace(",", " ")  # Split input by spaces and ignore commas
+    query = query.strip().lower()  # Remove leading and trailing spaces and convert to lowercase
     conn = sqlite3.connect('alas_lib.db')
     c = conn.cursor()
     # Clear previous search results
