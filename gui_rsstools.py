@@ -1,5 +1,4 @@
 ## this is the button to check and replace the URL used. 
-
 import tkinter as tk
 import json
 import tkinter.messagebox as messagebox
@@ -10,7 +9,7 @@ def rss_tools():
             with open('config.json', 'r') as config_file:
                 config_data = json.load(config_file)
                 rss_url = config_data.get('rss_url', 'No URL found')
-                messagebox.showinfo("RSS URL", f"The current RSS URL is: {rss_url}")
+                messagebox.showinfo("RSS URL", f"Current URL: {rss_url}")
         except FileNotFoundError:
             messagebox.showerror("Error", "config.json not found")
 
@@ -29,7 +28,7 @@ def rss_tools():
                 messagebox.showerror("Error", "config.json not found")
 
         top = tk.Toplevel(root)
-        top.title("Update RSS URL")
+        top.title("RSS URL Configuration")
 
         url_label = tk.Label(top, text="Enter new RSS URL:")
         url_label.pack()
@@ -37,29 +36,23 @@ def rss_tools():
         url_entry = tk.Entry(top, width=50)
         url_entry.pack()
 
-        save_button = tk.Button(top, text="Save", command=save_url)
+        check_button = tk.Button(top, text="Check", command=check_rss_url)
+        check_button.pack()
+
+        save_button = tk.Button(top, text="Update URL", command=save_url)
         save_button.pack()
 
     # Create main window
     root = tk.Tk()
     root.title("ALAS Database Tool")
 
-    # Function to open RSS URL configuration window
-    def open_rss_url_window():
-        top = tk.Toplevel(root)
-        top.title("RSS URL Configuration")
-
-        check_button = tk.Button(top, text="Check", command=check_rss_url)
-        check_button.pack()
-
-        update_button = tk.Button(top, text="Update URL", command=update_rss_url)
-        update_button.pack()
-
     # Button to open RSS URL configuration window
-    rss_url_button = tk.Button(root, text="RSS URL", command=open_rss_url_window)
+    rss_url_button = tk.Button(root, text="RSS URL", command=update_rss_url)
     rss_url_button.pack()
 
     root.mainloop()
+
+
 
 
 def main():

@@ -86,8 +86,10 @@ def initial_setup(url):
     print("First time setup starting")
     drop_db('alas.db')
     drop_db('alas_lib.db')
+    print("Existing DB dropped")
     create_alas_db()
     create_lib_db()
+    print("DB creation completed. Proceeding to process URL: ", url)
     #demo URL
     # url = 'alas_test.rss'
     #url = 'https://alas.aws.amazon.com/AL2/alas.rss'
