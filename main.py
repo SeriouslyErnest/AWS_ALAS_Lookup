@@ -13,6 +13,7 @@ from gui_id_search import id_search_ui
 from gui_libsearch import lib_search_ui
 from gui_stats import lib_stats
 
+
 status_messages = {
     "Search by ID": "ID search completed.",
     "Search by Library": "Library search completed.",

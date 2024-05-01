@@ -2,6 +2,7 @@
     "gmail_username": "",
     "gmail_password": "",
     "destination": "",
-    "watchlist": ["java", "intel", "AMD", "freetype", "libtiff"]
+    "watchlist": ["java", "intel", "AMD", "freetype", "libtiff"],
+    "rss_url": ""
 }
 
