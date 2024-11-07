@@ -8,6 +8,6 @@ Run first time setup in menu, and you can then search package -> ALAS, CVE, ALAS
 #when new system: ensure config.json path in smtp is correct
 
 ## if you want email functionalities, open config.json and add in your email address/ password there. 
-
+## still have some issues with the auto-generated code for the frontend. 
 
 This is a simple personal project to make my life easier because I need to search for ALAS <-> package manually one by one. Hope it helps someone else out there. 
